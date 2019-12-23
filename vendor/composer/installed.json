@@ -1,0 +1,282 @@
+[
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.1.4",
+        "version_normalized": "6.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "c5e61d0729507049cec9673aa1a679f9adefd683"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c5e61d0729507049cec9673aa1a679f9adefd683",
+            "reference": "c5e61d0729507049cec9673aa1a679f9adefd683",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "^1.2",
+            "friendsofphp/php-cs-fixer": "^2.2",
+            "phpunit/phpunit": "^4.8 || ^5.7"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2019-12-10T11:17:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-only"
+        ],
+        "authors": [
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "stripe/stripe-php",
+        "version": "v7.14.2",
+        "version_normalized": "7.14.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stripe/stripe-php.git",
+            "reference": "d7d11658defa08ca8f6fc6668c745aaa67f56bdf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stripe/stripe-php/zipball/d7d11658defa08ca8f6fc6668c745aaa67f56bdf",
+            "reference": "d7d11658defa08ca8f6fc6668c745aaa67f56bdf",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.15",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "^3.3",
+            "symfony/process": "~3.4"
+        },
+        "time": "2019-12-04T17:47:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stripe\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stripe and contributors",
+                "homepage": "https://github.com/stripe/stripe-php/contributors"
+            }
+        ],
+        "description": "Stripe PHP Library",
+        "homepage": "https://stripe.com/",
+        "keywords": [
+            "api",
+            "payment processing",
+            "stripe"
+        ]
+    },
+    {
+        "name": "tecnickcom/tc-lib-barcode",
+        "version": "1.15.16",
+        "version_normalized": "1.15.16.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/tc-lib-barcode.git",
+            "reference": "60780acd7aeaca3547b16963dda3f09c6bdce2e7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/tc-lib-barcode/zipball/60780acd7aeaca3547b16963dda3f09c6bdce2e7",
+            "reference": "60780acd7aeaca3547b16963dda3f09c6bdce2e7",
+            "shasum": ""
+        },
+        "require": {
+            "ext-bcmath": "*",
+            "ext-date": "*",
+            "ext-gd": "*",
+            "ext-pcre": "*",
+            "php": ">=5.3",
+            "tecnickcom/tc-lib-color": "^1.12.13"
+        },
+        "require-dev": {
+            "apigen/apigen": "^2.8.1 || ^4.1.2",
+            "bartlett/php-compatinfo": "^4.5.2 || ^5.0.10 || ^5.0.12",
+            "pdepend/pdepend": "^2.5.2",
+            "phploc/phploc": "^2.1 || ^3.0 || ^4.0",
+            "phpmd/phpmd": "^2.6.0",
+            "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.1",
+            "sebastian/phpcpd": "^2.0 || ^3.0 || ^4.0",
+            "squizlabs/php_codesniffer": "^2.8.0 || ^3.2.0"
+        },
+        "time": "2019-10-01T17:09:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Com\\Tecnick\\Barcode\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP library to generate linear and bidimensional barcodes",
+        "homepage": "http://www.tecnick.com",
+        "keywords": [
+            "3 of 9",
+            "ANSI MH10.8M-1983",
+            "CBC",
+            "CODABAR",
+            "CODE 11",
+            "CODE 128 A B C",
+            "CODE 39",
+            "CODE 93",
+            "EAN 13",
+            "EAN 8",
+            "ECC200",
+            "Intelligent Mail Barcode",
+            "Interleaved 2 of 5",
+            "KIX",
+            "Klant",
+            "MSI",
+            "Onecode",
+            "PHARMACODE",
+            "PHARMACODE TWO-TRACKS",
+            "POSTNET",
+            "RMS4CC",
+            "Standard 2 of 5",
+            "UPC-A",
+            "UPC-E",
+            "USD-3",
+            "USPS-B-3200",
+            "USS-93",
+            "barcode",
+            "datamatrix",
+            "pdf417",
+            "planet",
+            "qr-code",
+            "royal mail",
+            "tc-lib-barcode",
+            "upc"
+        ]
+    },
+    {
+        "name": "tecnickcom/tc-lib-color",
+        "version": "1.12.13",
+        "version_normalized": "1.12.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/tc-lib-color.git",
+            "reference": "67402204a7120716fe8e885019990501c5d4cffb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/67402204a7120716fe8e885019990501c5d4cffb",
+            "reference": "67402204a7120716fe8e885019990501c5d4cffb",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "apigen/apigen": "^2.8.1 || ^4.1.2",
+            "bartlett/php-compatinfo": "^4.5.2 || ^5.0.10 || ^5.0.12",
+            "pdepend/pdepend": "^2.5.2",
+            "phploc/phploc": "^2.1 || ^3.0 || ^4.0",
+            "phpmd/phpmd": "^2.6.0",
+            "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.1",
+            "sebastian/phpcpd": "^2.0 || ^3.0 || ^4.0",
+            "squizlabs/php_codesniffer": "^2.8.0 || ^3.2.0"
+        },
+        "time": "2019-09-19T12:31:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Com\\Tecnick\\Color\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP library to manipulate various color representations",
+        "homepage": "http://www.tecnick.com",
+        "keywords": [
+            "cmyk",
+            "color",
+            "colors",
+            "colour",
+            "colours",
+            "hsl",
+            "hsla",
+            "javascript",
+            "rgb",
+            "rgba",
+            "tc-lib-color",
+            "web"
+        ]
+    }
+]
