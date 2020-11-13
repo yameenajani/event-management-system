@@ -28,15 +28,15 @@ $mail->Host = "smtp.gmail.com";
 //Set this to true if SMTP host requires authentication to send email
 $mail->SMTPAuth = true;                          
 //Provide username and password     
-$mail->Username = "ajaniyameen@gmail.com";                 
-$mail->Password = "YaAli786";                           
+$mail->Username = "therealcodebrewers@gmail.com";                 
+$mail->Password = "@Project2020";                           
 //If SMTP requires TLS encryption then set it
 $mail->SMTPSecure = "tls";                           
 //Set TCP port to connect to 
 $mail->Port = 587;
 
 //From email address and name
-$mail->setFrom("ajaniyameen@gmail.com", "Yameen Ajani");
+$mail->setFrom("therealcodebrewers@gmail.com", "Yameen Ajani");
 
 //To address and name
 $mail->addAddress($_SESSION['email']); //Recipient name is optional
